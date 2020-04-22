@@ -1,3 +1,23 @@
+# Mapathon Client Application 
+
+This was built for 1904labs first ever mapathon.  It's simple by design as there were two goals.  The first was to test out the ol-kit and determine what things the team needed to work on to improve the library.  The second was to build a full stack geospatial application with open layers via ol-kit, geoserver, and postgis. 
+
+## Dependencies 
+
+For the server side please go to [geostack](https://github.com/1904labs/geostack)
+
+## Notes 
+
+The project expects the above server side to be setup locally.  It doesn't need to be, the vector layer can be consumed from anywhere.  However to get the result shown below you need to consume the layer that will be available locally with the docker containers defined in the above project. 
+
+## Screenshot for verification 
+
+If all has worked out as expected the following should render in the browser 
+
+![Open Layers NYC Building Footprints!](./docs/map-screenshot.png)
+
+# Preamble for Create React App 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
